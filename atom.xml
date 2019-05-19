@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-19T09:34:54.927Z</updated>
+  <updated>2019-05-19T11:37:36.113Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,15 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>two</title>
+    <link href="http://yoursite.com/2019/05/19/two/"/>
+    <id>http://yoursite.com/2019/05/19/two/</id>
+    <published>2019-05-19T11:15:27.000Z</published>
+    <updated>2019-05-19T11:37:36.113Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="个人测试" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="-test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
     <title>one</title>
     <link href="http://yoursite.com/2019/05/19/one/"/>
     <id>http://yoursite.com/2019/05/19/one/</id>
     <published>2019-05-19T09:30:55.000Z</published>
-    <updated>2019-05-19T09:34:54.927Z</updated>
+    <updated>2019-05-19T09:36:27.279Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;#第一次测试
+      &lt;h1 id=&quot;第一次测试&quot;&gt;&lt;a href=&quot;#第一次测试&quot; class=&quot;headerlink&quot; title=&quot;第一次测试 &quot;&gt;&lt;/a&gt;第一次测试
     
     </summary>
     
