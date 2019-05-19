@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dajing</title>
+  
+  <subtitle>☀ blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-05-19T06:00:17.063Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>dajing</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HelloEveryone</title>
+    <link href="http://yoursite.com/2019/05/18/HelloEveryone/"/>
+    <id>http://yoursite.com/2019/05/18/HelloEveryone/</id>
+    <published>2019-05-18T01:54:48.000Z</published>
+    <updated>2019-05-19T06:00:17.063Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;你好 欢迎来到我的博客
+        
+      
+    
+    </summary>
+    
+      <category term="个人秘笈" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E7%A7%98%E7%AC%88/"/>
+    
+    
+      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
