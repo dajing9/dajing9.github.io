@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-19T11:37:36.113Z</updated>
+  <updated>2019-05-19T12:17:56.401Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>three</title>
+    <link href="http://yoursite.com/2019/05/19/three/"/>
+    <id>http://yoursite.com/2019/05/19/three/</id>
+    <published>2019-05-19T11:45:09.000Z</published>
+    <updated>2019-05-19T12:17:56.401Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;这是第三次测试&quot;&gt;&lt;a href=&quot;#这是第三次测试&quot; class=&quot;headerlink&quot; title=&quot;这是第三次测试&quot;&gt;&lt;/a&gt;这是第三次测试&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="个人测试" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="-test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>two</title>

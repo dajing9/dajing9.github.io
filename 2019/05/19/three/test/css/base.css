@@ -1,0 +1,220 @@
+.w {    /* 版心的公共类 */
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+	margin:0;
+	padding:0
+}
+
+img {
+	display: block;
+}
+
+input, button {
+	border: 0;
+	outline: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix:after{visibility:hidden;clear:both;display:block;content:".";height:0}
+.clearfix{*zoom:1}
+
+body {
+    background-color: #F0F0F0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #466DE2;
+}
+
+/* 页面头部 */
+section {
+    background-color: #f7f7f7;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+
+section span {
+    margin: 0 15px;
+}
+
+nav { 
+    background-color: #fff;
+}
+
+.nav-t {
+    padding: 22px 0 18px;
+}
+
+.user-info a {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.user-info span {
+    font-size: 12px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.nav-b {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav-b li {
+    float: left;
+    margin-left: 40px;
+    position: relative;
+}
+
+.nav-b li:first-child {
+    margin: 0;
+    width: 230px;
+    background-color: #3492FD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav-b li:first-child:hover{
+    cursor: pointer;
+}
+
+.arrow-down {
+    padding-right: 14px;
+}
+
+/* 小箭头 */
+.arrow-down:after {
+    display: block;
+    position: absolute;
+    content: '';
+    border: 4px solid #333;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    right: 0;
+    bottom: 12px;
+}
+
+/* 搜索框 */
+.search {
+    height: 20px;
+    width: 240px;
+    float: right;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05); 
+    border-radius: 15px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.search input {
+    width: 155px;
+    float: left;
+    line-height: 20px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #999;
+    border-right: 1px solid #ccc;
+}
+
+.search button {
+    width: 69px;
+    float: left;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+/* 页面底部 */
+footer {
+    background-color: #333;
+    color: #ccc;
+}
+
+footer a {
+    color: #ccc;
+}
+
+.footer-t {
+    height: 209px;
+    border-bottom: 1px solid #393E46;
+}
+
+.footer-t h3 {
+    font-size: 20px;
+    margin: 50px 0 20px;
+}
+
+.footer-t-col1 {
+    width: 427px;
+}
+
+.footer-t-col1 p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer-t-col2 {
+    margin-left: 56px;
+}
+
+.footer-t-col2 a {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+.footer-t-col2 .weibo {
+    background: url(../images/weibo.png) no-repeat center;
+    margin-right: 15px;
+}
+
+.footer-t-col2 .wechat {
+    background: url(../images/weixin.png) no-repeat center;
+}
+
+.footer-t-col3 {
+    margin-left: 70px;
+}
+
+.footer-t-col3 a {
+    font-size: 14px;
+    line-height: 36px;
+    margin-right: 26px;
+}
+
+.footer-b {
+    height: 88px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.aboutus {
+    padding: 26px 0 22px;
+}
+
+.aboutus span {
+    margin: 0 15px;
+}

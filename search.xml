@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[three]]></title>
+    <url>%2F2019%2F05%2F19%2Fthree%2F</url>
+    <content type="text"><![CDATA[这是第三次测试 为了梳理思路 百度一下 百度一下 跳到CSDN博客：https://blog.csdn.net/qq_43380248 新的链接]]></content>
+      <categories>
+        <category>个人测试</category>
+      </categories>
+      <tags>
+        <tag>-test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[two]]></title>
     <url>%2F2019%2F05%2F19%2Ftwo%2F</url>
     <content type="text"><![CDATA[测试 这是一个区块类 无序列表 链接：demo]]></content>
