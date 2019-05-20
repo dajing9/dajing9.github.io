@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[zexo]]></title>
+    <url>%2F2019%2F05%2F20%2Fzexo%2F</url>
+    <content type="text"><![CDATA[最后一次测试这是一个锚点链接详情请查看（ 演示地址 ）。 更多源码就去参见演示吧~博主很懒，本文很短……主要是确实没什么可写]]></content>
+      <categories>
+        <category>个人测试</category>
+      </categories>
+      <tags>
+        <tag>-测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[three]]></title>
     <url>%2F2019%2F05%2F19%2Fthree%2F</url>
-    <content type="text"><![CDATA[这是第三次测试 为了梳理思路 百度一下 百度一下 跳到CSDN博客：https://blog.csdn.net/qq_43380248 新的链接]]></content>
+    <content type="text"><![CDATA[这是第三次测试 为了梳理思路 百度一下 百度一下 跳到CSDN博客：https://blog.csdn.net/qq_43380248 博学谷]]></content>
       <categories>
         <category>个人测试</category>
       </categories>
