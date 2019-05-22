@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>爱心表白</title>
+
+    <style>
+        /* 兼容性 */
+        
+        * {
+            padding: 0;
+            /*内边距*/
+            margin: 0;
+            /*外边距*/
+        }
+        
+        body {
+            background-color: brown;
+        }
+        
+        p {
+            margin: 300px auto;
+            text-align: center;
+            color: black;
+        }
+        
+        .wrap {
+            display: table;
+            /*编程表格的类型*/
+            height: 200px;
+            /* border: 1px solid; */
+            /* background-color: cornflowerblue; */
+            margin: 100 auto;
+            left: 50%;
+            position: relative;
+            top: 120px;
+            margin-left: -130px;
+        }
+        
+        .box {
+            float: left;
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            margin-bottom: 2px;
+            margin-right: 2px;
+            border-radius: 3px;
+            transform: translateY(-300px);
+            opacity: 0;
+            animation: love 6s infinite;
+            /*动画 名称 时间  循环*/
+        }
+        
+        @keyframes love {
+            0% {
+                opacity: 0;
+                transform: translateY(-300px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            65% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(300px);
+            }
+        }
+        
+        .delay1 {
+            animation-delay: .1s;
+        }
+        
+        .delay2 {
+            animation-delay: .2s;
+        }
+        
+        .delay3 {
+            animation-delay: .3s;
+        }
+        
+        .delay4 {
+            animation-delay: .5s;
+        }
+        
+        .delay5 {
+            animation-delay: .7s;
+        }
+        
+        .delay6 {
+            animation-delay: .9s;
+        }
+        /* 动画 aniamtion 视觉残留 css3 新增 js 动态脚本语言 操控网页*/
+        
+        .clear {
+            clear: both;
+        }
+        
+        .transparent {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="box transparent"></div>
+        <div class="box delay1"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay2"></div>
+        <div class="box delay1"></div>
+        <div class="box transparent"></div>
+        <div class="box clear delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box delay3"></div>
+        <div class="box delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box clear"></div>
+        <div class="box delay2"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay5"></div>
+        <div class="box delay6"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay2"></div>
+        <div class="box clear  delay5"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay6"></div>
+        <div class="box delay2"></div>
+        <div class="box delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box delay5"></div>
+        <div class="box clear  transparent"></div>
+        <div class="box delay6"></div>
+        <div class="box delay2"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay3"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay2"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+    </div>
+    <p>送给需要过520的小伙伴~</p>
+
+
+</body>
+
+</html>
