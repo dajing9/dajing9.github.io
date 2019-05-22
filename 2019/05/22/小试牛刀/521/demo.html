@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="懒加载">
+    <!-- // 百度关键字匹配*/ -->
+    <meta name="Description" content="这是一个懒加载，懒加载，懒加载">
+    <!-- /*描述网页内容*/ -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>懒加载应用</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+        
+        body {
+            margin: 0;
+            /* 清除外边距 */
+            background-color: #434343;
+        }
+        
+        .wrap {
+            overflow: hidden;
+            /* 超出隐藏 创建BFc环境 */
+            width: 930px;
+            /* 定宽不定高  由内容撑开 */
+            /* height: 1200px; */
+            margin: 50px auto;
+            /* 上下50px  左右居中 */
+            background-color: #2d2d2d;
+            font-size: 50px;
+            /* font-size  可以解决行内间距 */
+            /* line-height: 0; */
+            /* 行高 */
+        }
+        
+        .wrap img {
+            float: left;
+            /* 左浮动 横排显示 */
+            display: block;
+            /* 变成块级元素 */
+            width: 280px;
+            height: 180px;
+            /* vertical-align: middle; */
+            /* 基线对齐方式 */
+            margin: 10px;
+            border: 2px solid #7c7c7c;
+            border-radius: 10px;
+            /* css3圆角属性 */
+        }
+        /* inline 行内元素----》可以并排站  行内间距和节点由空格符造成的*/
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- src 加载一张图片所在的路径   width 宽度    height  高度   alt 当图片加载出错时，显示文字-->
+        <img src="images/1.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/2.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/3.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/4.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/5.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/6.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/7.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/8.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/9.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/10.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/11.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/12.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/13.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/14.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/15.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/16.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/17.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/18.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/19.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/20.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/21.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/22.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/23.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/24.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/25.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/26.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/27.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/28.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/29.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/30.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/31.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/32.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/33.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/34.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/35.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/36.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/37.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/38.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/39.jpg" alt="林允儿" width="1920" height="1080">
+        <img src="images/40.jpg" alt="林允儿" width="1920" height="1080">
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script>
+        $("img").lazyload({
+            placeholder: "images/loading.gif",
+            // 用图片提前站位
+            // placeholder,值为莫一图片路径，此图片用来占据将要加载的图片的位置，待图片加载时，站位图则会隐藏
+            effect: "fadeIn",
+            // 载入使用何种效果
+            // effect(特效)，值有show（直接显示），fadeIn(淡入)，slideDown(下拉)等，常用fadeIn
+            threshold: -200,
+            // 提前开始加载
+            // threshold,值为数字，代表页面高度，如设置为200，表示滚动条在离目标位置还有200的高度就开始加载图片，可以做到不让用户察觉
+            // event: 'click',
+            // 事件触发时才加载
+            // event,值有click(点击)，mouseover(鼠标滑过)，sporty(运动的)，foobar(...),可以实现鼠标莫过或点击图片才开始加载，后两个值末测试
+        })
+    </script>
+
+</body>
+
+</html>
