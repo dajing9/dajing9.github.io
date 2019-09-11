@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Time around the world]]></title>
+    <url>%2F2019%2F09%2F11%2FTime%2F</url>
+    <content type="text"><![CDATA[这里有三个案例： 这是一个随机色 详情请查看（演示地址）。 这是一个圆周运动 详情请查看（演示地址）。 这是一个世界各地时间 详情请查看（演示地址）。 更多源码就去参见(演示)吧~博主很懒，本文很短……主要是确实没什么可写]]></content>
+      <categories>
+        <category>JS</category>
+      </categories>
+      <tags>
+        <tag>小试牛刀</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[iconfont]]></title>
     <url>%2F2019%2F05%2F29%2Ficonfont%2F</url>
     <content type="text"><![CDATA[这里是一个使用阿里矢量图标的小栗子： 这是一个使用阿里矢量图标的小栗子（演示地址） 更多源码就去参见(演示)吧~博主很懒，本文很短……主要是确实没什么可写]]></content>
