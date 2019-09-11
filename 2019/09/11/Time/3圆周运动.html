@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #box {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border: 1px solid deeppink;
+            margin: 50px auto 0;
+            border-radius: 50%;
+        }
+        
+        #ball {
+            position: absolute;
+            top: 200px;
+            left: 400px;
+            width: 10px;
+            height: 10px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="ball"></div>
+    </div>
+    <script>
+        var ball = document.getElementById('ball');
+        var deg = 0;
+        var r = 200; //半径为200
+        var x = 200;
+        var y = 200; //(x,y)组成圆心
+
+        function run() {
+            var rad = Math.PI / 180 * deg; //角度与弧度的转换 变量rad指的是角度
+            var nx = Math.cos(rad) * r + x; //若以圆的圆心为圆点 那么小球的横坐标应该是 r*cos(rad)
+            var ny = Math.sin(rad) * r + y; //若以圆的圆心为圆点 那么小球的纵坐标应该是 r*sin(rad)
+            //rad 角度可以是0~360~720~..  那么对应的正弦和余弦值 会有正 和 负 ,
+            //总的来说就是原点从圆的圆心变为大圆的左上方的点...
+
+            //改变小球的left和top值,减5是减去小圆的半径,使其圆心在大圆上
+            ball.style.left = nx - 5 + 'px'
+            ball.style.top = ny - 5 + 'px'
+
+            deg += 1; //小球运动 角度每次加一
+        }
+        setInterval(run, 1000 / 60) //1000指的是1000毫秒=1秒  1000/60 是每一帧来走的,是帧的写法
+    </script>
+
+</body>
+
+</html>

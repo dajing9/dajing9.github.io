@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dajing</title>
   
-  <subtitle>☀ blog</subtitle>
+  <subtitle>☀天,还是湛蓝的天;云,也还是洁白的云</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>dajing</name>
+    <name>张月~</name>
     
   </author>
   
